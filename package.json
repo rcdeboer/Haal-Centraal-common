@@ -7,8 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "oas:lint": "spectral lint ./api-specificatie/common.yaml",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "oas:lint": "spectral lint ./api-specificatie/common.yaml"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,8 @@
   },
   "homepage": "https://github.com/VNG-Realisatie/Haal-Centraal-common#readme",
   "devDependencies": {
-    "@stoplight/spectral": "^5.5.0",
-    "husky": "^4.3.0"
+    "@stoplight/spectral": "^5.8.0",
+    "husky": "^4.3.7"
   },
   "husky": {
     "hooks": {
